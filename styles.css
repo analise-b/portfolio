@@ -1,0 +1,282 @@
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #FAF9F6;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: .9rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h1,
+h3,
+li {
+    font-weight: normal;
+}
+
+h2 {
+    margin-top: 3%;
+    padding-bottom: 1%;
+}
+
+li,
+h2 {
+    font-size: 1.5rem;
+}
+
+.viewMore {
+    margin-top: 3%;
+    margin-bottom:2%;
+}
+
+.viewMore h2 {
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+#flexDisplay {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    width: 100%
+}
+
+.generalPage p{
+        color: #666;
+}
+
+.content {
+    width: 40%;
+    margin: 0 3%;
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 5px;
+    height: 400px;
+}
+
+#contentSpider {
+    height: 350px;
+}
+
+#featuredProjects {
+    font-size: 2rem;
+}
+
+.content:hover {
+    filter: drop-shadow(0px 0px 5px #333);
+}
+
+.content h3 {
+    margin-top: 5%;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#recipeImage {
+    background-image: url("images/title.jpg");
+}
+
+#micrositeDevelopperImage {
+    background-image: url("images/spidermanImage.png");
+}
+
+#micrositeDirectionImage {
+    background-image: url("img/solarImage.png");
+}
+
+#email {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    border-top: 1px solid #333;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    #flexDisplay {
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .content {
+        width: 80%;
+        margin-top: 5%;
+        height: 300px;
+    }
+
+    p {
+        font-size: .7rem;
+    }
+
+}
+
+
+/* projects page */
+
+.projects {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.project-category {
+    margin-bottom: 2rem;
+}
+
+.project-category h3 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.project-item {
+    background: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+.project-item h4 a {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.project-item p {
+    color: #666;
+}
+
+.project-item:hover{
+    filter: drop-shadow(0px 0px 5px #333);
+}
+
+.intro {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.intro p {
+    text-align: left;
+}
+
+.intro h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.figma-link,
+.figma-linkMood {
+    display: inline-block;
+    margin-bottom: 2%;
+    padding: 8px 12px;
+    background-color: #1DB954; /* Spotify green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.figma-link:hover {
+    background-color: #1AA34A; /* Slightly darker green */
+    color: black;
+}
+
+.figma-linkMood {
+    background-color: #FF6962;
+    color: black;
+}
+
+.figma-linkMood:hover {
+    background-color: #FFB346;
+    color: white;
+}
+
+.case-study h2 {
+    text-align: center;
+}
+
+.figma-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
