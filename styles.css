@@ -246,8 +246,8 @@ footer {
 .figma-link,
 .figma-linkMood {
     display: inline-block;
-    margin-bottom: 2%;
-    padding: 8px 12px;
+    margin-bottom: 3%;
+    padding: 10px 20px;
     background-color: #1DB954; /* Spotify green */
     color: white;
     text-decoration: none;
