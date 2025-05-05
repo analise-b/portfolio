@@ -292,7 +292,7 @@ footer {
     margin: 0 auto;
     padding: 2rem;
     line-height: 1.6;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1rem;
 }
 
@@ -434,4 +434,15 @@ footer {
     height: 400px;
     border-radius: 10px;
     margin: 5% auto;
-}   
+}
+
+#storyboard {
+    background-image: url("images/storyboard.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin: 5% auto;
+}
