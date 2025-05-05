@@ -107,7 +107,7 @@ main {
     background-color: #F5F5F5;
     padding: 20px;
     border-radius: 5px;
-    height: 430px;
+    height: 460px;
 }
 
 #contentSpider {
@@ -241,6 +241,17 @@ footer {
 .intro h3 {
     text-align: center;
     font-weight: bold;
+}
+
+h5 {
+    font-size: 0.9rem;
+    margin-top: 0%;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.spotifyTitle {
+    text-align: center;
 }
 
 .figma-link,
