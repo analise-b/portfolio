@@ -70,7 +70,7 @@ h2 {
 
 .viewMore {
     margin-top: 3%;
-    margin-bottom:2%;
+    margin-bottom: 2%;
 }
 
 .viewMore h2 {
@@ -97,8 +97,8 @@ main {
     width: 100%
 }
 
-.generalPage p{
-        color: #666;
+.generalPage p {
+    color: #666;
 }
 
 .content {
@@ -223,7 +223,7 @@ footer {
     color: #666;
 }
 
-.project-item:hover{
+.project-item:hover {
     filter: drop-shadow(0px 0px 5px #333);
 }
 
@@ -243,6 +243,21 @@ footer {
     font-weight: bold;
 }
 
+.listMood {
+    text-align: left;
+}
+
+.intro ul {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.intro li {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0.5rem;
+}
+
 h5 {
     font-size: 0.9rem;
     margin-top: 0%;
@@ -258,7 +273,8 @@ h5 {
 .figma-linkMood {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #1DB954; /* Spotify green */
+    background-color: #1DB954;
+    /* Spotify green */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -273,7 +289,8 @@ h5 {
 }
 
 .figma-link:hover {
-    background-color: #1AA34A; /* Slightly darker green */
+    background-color: #1AA34A;
+    /* Slightly darker green */
     color: black;
 }
 
