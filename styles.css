@@ -111,7 +111,7 @@ main {
 }
 
 #contentSpider {
-    height: 350px;
+    height: 390px;
 }
 
 #featuredProjects {
@@ -200,7 +200,7 @@ footer {
 }
 
 .project-category h3 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     border-bottom: 2px solid #ddd;
     padding-bottom: 0.5rem;
 }
@@ -215,7 +215,7 @@ footer {
 }
 
 .project-item h4 a {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     font-weight: bold;
 }
 
