@@ -490,6 +490,10 @@ h5 {
     color: #FF6962;
 }
 
+.rec {
+    font-size: 1.25rem;
+}
+
 #caseStudyMood {
     margin-bottom: 5%;
 }
@@ -514,4 +518,10 @@ h5 {
     height: 400px;
     border-radius: 10px;
     margin: 5% auto;
+}
+
+.green {
+    color: #1AA34A;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
